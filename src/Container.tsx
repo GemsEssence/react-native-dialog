@@ -157,7 +157,7 @@ const buildStyles: StyleBuilder = (isDark: boolean) =>
         overflow: "hidden",
       },
       android: {
-        backgroundColor: isDark ? "#212121" : "#FFFFFF",
+        backgroundColor: "#FFFFFF",
         flexDirection: "column",
         borderRadius: 3,
         padding: 16,

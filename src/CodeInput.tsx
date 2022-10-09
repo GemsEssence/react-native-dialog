@@ -126,7 +126,7 @@ const buildStyles = (isDark: boolean) =>
         },
         android: {
           //borderColor: PlatformColor(`@android:color/${isDark ? "secondary_text_dark" : "secondary_text_light"}`),
-          borderColor: isDark ? "#efefef" : "#8d8d8d",
+          borderColor: "#8d8d8d",
         },
         default: {},
       }),
@@ -141,7 +141,7 @@ const buildStyles = (isDark: boolean) =>
             isDark ? "primary_text_dark" : "primary_text_light"
           }`
         ),*/
-        borderColor: isDark ? "#58c7b9" : "#169689",
+        borderColor: "#169689",
       },
       default: {},
     }),
@@ -151,7 +151,7 @@ const buildStyles = (isDark: boolean) =>
         color: PlatformColor("label"),
       },
       android: {
-        color: isDark ? "#FAFAFA" : "#212121",
+        color: "#212121",
         fontSize: 20,
       },
       default: {},
@@ -161,7 +161,7 @@ const buildStyles = (isDark: boolean) =>
         color: PlatformColor("label"),
       },
       android: {
-        color: isDark ? "#FAFAFA" : "#212121",
+        color: "#212121",
         fontSize: 14,
       },
       default: {},

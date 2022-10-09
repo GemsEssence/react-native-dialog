@@ -33,7 +33,7 @@ const buildStyles: StyleBuilder = (isDark) =>
         fontWeight: "600",
       },
       android: {
-        color: isDark ? "#FAFAFA" : "#212121",
+        color: "#212121",
         fontWeight: "500",
         fontSize: 18,
       },

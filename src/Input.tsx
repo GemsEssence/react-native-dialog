@@ -86,7 +86,7 @@ const buildStyles: StyleBuilder = (isDark) =>
         color: PlatformColor("label"),
       },
       android: {
-        color: isDark ? "#FAFAFA" : "#212121",
+        color: "#212121",
         fontSize: 14,
       },
       default: {},
@@ -96,7 +96,7 @@ const buildStyles: StyleBuilder = (isDark) =>
         color: PlatformColor("label"),
       },
       android: {
-        color: isDark ? "#FAFAFA" : "#212121",
+        color: "#212121",
         marginLeft: -4,
         paddingLeft: 4,
       },
@@ -105,4 +105,3 @@ const buildStyles: StyleBuilder = (isDark) =>
   });
 
 export default DialogInput;
-  

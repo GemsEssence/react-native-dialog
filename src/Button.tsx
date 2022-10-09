@@ -80,7 +80,7 @@ const buildStyles: StyleBuilder = (isDark) =>
         backgroundColor: "transparent",
       },
       android: {
-        color: isDark ? "#BFC7C7C7" : "#BF727272",
+        color: "#BF7272FF",
         textAlign: "center",
         backgroundColor: "transparent",
         padding: 8,

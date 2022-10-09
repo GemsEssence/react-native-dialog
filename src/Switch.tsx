@@ -59,7 +59,7 @@ const buildStyles: StyleBuilder = (isDark) =>
         flex: 1,
         paddingRight: 8,
         fontSize: 16,
-        color: isDark ? "#FAFAFA" : "#212121",
+        color: "#212121",
       },
       default: {},
     }),
