@@ -59,11 +59,7 @@ const buildStyles: StyleBuilder = (isDark) =>
         flex: 1,
         paddingRight: 8,
         fontSize: 16,
-        color: PlatformColor(
-          `@android:color/${
-            isDark ? "primary_text_dark" : "primary_text_light"
-          }`
-        ),
+        color: isDark ? "#FAFAFA" : "#212121",
       },
       default: {},
     }),
