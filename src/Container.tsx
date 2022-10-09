@@ -37,6 +37,7 @@ export type DialogContainerProps = PropsWithChildren<{
   onRequestClose?: () => void;
   keyboardVerticalOffset?: number;
   useNativeDriver?: boolean;
+  coverScreen?: boolean;
 }>;
 
 const DialogContainer: React.FC<DialogContainerProps> = (props) => {
@@ -134,7 +135,7 @@ const DialogContainer: React.FC<DialogContainerProps> = (props) => {
   );
 };
 
-const buildStyles: StyleBuilder = () =>
+const buildStyles: StyleBuilder = (isDark: boolean) =>
   StyleSheet.create({
     centeredView: {
       marginTop: 22,
@@ -156,7 +157,7 @@ const buildStyles: StyleBuilder = () =>
         overflow: "hidden",
       },
       android: {
-        backgroundColor: PlatformColor("?attr/colorBackgroundFloating"),
+        backgroundColor: isDark ? "#212121" : "#FFFFFF",
         flexDirection: "column",
         borderRadius: 3,
         padding: 16,
