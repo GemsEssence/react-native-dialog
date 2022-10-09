@@ -33,11 +33,7 @@ const buildStyles: StyleBuilder = (isDark) =>
         marginTop: 4,
       },
       android: {
-        color: PlatformColor(
-          `@android:color/${
-            isDark ? "secondary_text_dark" : "secondary_text_light"
-          }`
-        ),
+        color: isDark ? "#C7C7C7" : "#727272",
         fontSize: 16,
         marginTop: 10,
       },
