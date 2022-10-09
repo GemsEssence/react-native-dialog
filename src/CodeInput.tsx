@@ -151,11 +151,7 @@ const buildStyles = (isDark: boolean) =>
         color: PlatformColor("label"),
       },
       android: {
-        color: PlatformColor(
-          `@android:color/${
-            isDark ? "primary_text_dark" : "primary_text_light"
-          }`
-        ),
+        color: isDark ? "#FAFAFA" : "#212121",
         fontSize: 20,
       },
       default: {},
@@ -165,11 +161,7 @@ const buildStyles = (isDark: boolean) =>
         color: PlatformColor("label"),
       },
       android: {
-        color: PlatformColor(
-          `@android:color/${
-            isDark ? "primary_text_dark" : "primary_text_light"
-          }`
-        ),
+        color: isDark ? "#FAFAFA" : "#212121",
         fontSize: 14,
       },
       default: {},
