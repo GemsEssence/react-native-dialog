@@ -80,9 +80,7 @@ const buildStyles: StyleBuilder = (isDark) =>
         backgroundColor: "transparent",
       },
       android: {
-        color: PlatformColor(
-          `@android:color/${isDark ? "link_text_dark" : "link_text_dark_light"}`
-        ),
+        color: isDark ? "#BFC7C7C7" : "#BF727272",
         textAlign: "center",
         backgroundColor: "transparent",
         padding: 8,
